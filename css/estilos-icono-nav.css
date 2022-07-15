@@ -1,0 +1,113 @@
+.barra-navegacion{z-index:94035;background-color:#2A2359;line-height: 0;}
+.barra-navegacion img{padding: 1em 0 0 0;}
+.barra-navegacion .enlaces{font-size: 1.2em;padding: 2.3em 0 1em;}
+.barra-navegacion .busqueda{padding: 2em 0 1em;}
+.barra-navegacion .enlaces a{color:#fff;padding: 0 2em;text-decoration: none;transition: ease .2s;}
+.barra-navegacion .enlaces a:hover{color:#c9c9c9;transition: ease .2s;}
+.barra-navegacion .formulario-busqueda{font-size: 2em;padding: .5em 0 0 0;}
+
+
+.barra-navegacion-m{z-index:99;background-color:#2A2359;position: fixed;}
+.barra-navegacion-m .logo{padding: .8em 0}
+.contenedor-menu{
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    height: 150px;
+    justify-content: center;
+    position: absolute;
+    right: -3em;
+    top: -3.5em;
+    transform: scale(.13);
+    width: 150px;
+    z-index: 100;
+    color: black;
+}
+
+.menu-burger:after,
+.menu-burger:before,
+.menu-burger{    
+    background-color: #fff;
+    content: '';
+    transition: .5s;
+    width: 100%; 
+    position: absolute;
+}
+
+.menu-burger{    
+    height: 15%;    
+}
+
+.menu-burger:before{
+    top: 50px;
+    height: 100%;
+}
+.menu-burger:after{
+    height: 100%;
+    top: -50px;
+}
+
+
+.cruz{
+    transition: .5s;
+    transform: rotateZ(45deg);
+} 
+
+.cruz:before{    
+    transition: .5s;
+    top:0px;
+    transform: rotateZ(90deg);    
+}
+
+.cruz:after{
+    transition: .5s;
+    top:0px;
+    transform: rotateZ(0deg);  
+}
+
+.menu{
+    transition: .1s;
+    width: 0vw;
+    height: 100vh;
+    background-color:#000;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 100;
+}
+.menu>a{
+    font-size: 1.1em;
+    box-shadow: 3px 0 #2A2359 inset;
+    width: 100%;
+    padding: .2em 0 .2em 3em;    
+    color: #f1f1f1;
+    text-decoration: none;
+}
+ .menu>a:hover{   
+    box-shadow: 15em 0 #2A2359 inset;
+}
+.menu>a>div{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.menu>a>div>i{
+    font-size: .7em;
+}
+.menu .logo {padding: 2em 3em;}
+.menu .busqueda{
+    padding:1em 3em;
+}
+.menu .social-m {padding: 2em 3em;color: white;}
+.menu .social-m a{font-size: 2.5em;padding: 0 .2em;color: #c9c9c9;}
+.fondo{
+    transition: .2s;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+}
+
+

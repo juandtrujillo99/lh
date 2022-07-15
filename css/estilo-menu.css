@@ -1,0 +1,176 @@
+:root {
+  --text-primary: #2b2b2b;
+  --text-secondary: black;
+  --bg-primary: #fff;
+  --bg-secondary: #f1f1f1;
+}
+
+.tema {
+  background-color: var(--bg-primary);
+  transition: width 600ms ease;
+}
+
+
+/* Large screens */
+@media only screen {
+  .tema {
+  }
+
+  .tema:hover {
+  }
+
+  .tema:hover .link-text {
+    display: inline;
+  }
+}
+
+.light {
+  --text-primary: #000;
+  --text-secondary: #000000;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f1f1f1;
+}
+
+.light .icono-buscar{background-color:#c9c9c9;color:#424242;}
+.light .icono-buscar:hover{background-color:#424242;color:#c9c9c9;}
+.light .menu{background-color:#f1f1f1;}
+.light .menu>a{box-shadow: 3px 0 #424242 inset;color: black;}
+.light .menu>a:hover{box-shadow: 15em 0 #c9c9c9 inset;}
+.light .menu>a>div{color: #2b2b2b;}
+.light .menu .social-m {color: black;}
+.light .menu .social-m a{color: #2b2b2b;}
+.light .menu .social-m a:hover{color: #c9c9c9;}
+.light textarea.materialize-textarea {border-bottom: 1px solid #2b2b2b;}
+.light .form-control {color: #c9c9c9;background-color: transparent;border-bottom: 1px solid #2b2b2b;}/*controla la barra de busqueda, tanto en pc como movil*/
+.light textarea.materialize-textarea:focus:not([readonly]) {border-bottom: 1px solid #2b2b2b;-webkit-box-shadow: 0 1px 0 0 #2b2b2b;box-shadow: 0 1px 0 0 #2b2b2b;}
+.light #registro-correcto a{background-color: #2a2353;color: #fff;text-decoration: none;}
+
+
+
+.dark {
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #110f1e;
+  --bg-secondary: #141418;
+}
+
+.dark .btn {color:#2a2359;background-color:#f1f1f1;}
+.dark .btn-primary {color: #fff;background-color: #2a2359;}
+
+.dark .logo-svg{background:white;}
+
+.dark *::-moz-selection{background: #f1f1f1;color:#2b2b2b;}
+.dark *::selection {background: #fff;color: black;}
+.dark body::-webkit-scrollbar-track {background: #000;}
+.dark body::-webkit-scrollbar-thumb {background: black;}
+
+.dark .texto-negrita{color: white;}
+.dark .boton-ver-mas{border: white solid 3px;color:white;}
+.dark .boton-ver-mas:hover{background-color: white;color:#2A2359;}
+
+/*social*/
+.dark .redes-sociales h4{color: #c9c9c9;}
+.dark .redes-sociales a{color: #c9c9c9;}
+.dark .redes-sociales a:hover{color:#2b2b2b;}
+/*social*/
+
+
+/*Pendiente*/
+.dark #recuperar_clave{color: #2b2b2b;}
+.dark #recuperar_clave #formulario{background-color: white;}
+
+
+.dark .dark #barra-navegacion{border-bottom:.1em #c9c9c9 solid;background-color:#2A2359;}
+.dark .dark #barra-navegacion #enlaces a{color:#fff;}
+.dark #barra-navegacion #enlaces a:hover{color:#c9c9c9;}
+/*Pendiente*/
+
+
+/*404*/
+.dark #hic-salis{color: white;background-color:#2A2359;}
+.dark #hic-salis #formulario{color: white;}
+.dark #hic-salis #enlaces a{color: grey;text-align: center;}
+.dark #hic-salis #boton-login{color: white; background-color: transparent;border: 2px solid white;}
+.dark #hic-salis #boton-login:hover{background-color: white; color: #2A2359;}
+/*404*/
+
+
+/*busqueda*/
+.dark .icono-buscar{background-color:#c9c9c9;color:#424242;}
+.dark .icono-buscar:hover{background-color:#424242;color:#c9c9c9;}
+.dark #busqueda{color: #fff;}
+.dark .linea-decorativa{background-color: white; color:white;}
+.dark #busqueda .cuadro-contenedor{border: 2px solid #fff;}
+.dark #busqueda .cuadro-contenedor p{color:#939393;}
+.dark #busqueda .volver a{color:#f1f1f1;}
+.dark #abrebocas {color: white;}
+.dark #abrebocas:hover{background-color: #fff; color:#2A2359;}
+.dark .material-icons{color: white;}
+/*busqueda*/
+
+
+/*publicaciones*/
+.dark #entrada .precio, .dark #entrada h5{color:#c9c9c9;}/*precio y preguntas frecuentes*/
+.dark #entrada .boton-comprar {background-color:white;color:#2A2359;}
+.dark #entrada .boton-comprar:hover{background-color:#2b2b2b;color: white;}
+.dark #entrada p{color:white;}
+/*publicaciones*/
+
+
+/*preguntas frecuentes*/
+.dark #preguntas-frecuentes h3{color:#fff;}
+.dark #preguntas-frecuentes p{color:#c9c9c9;}
+/*preguntas frecuentes*/
+
+/*contacto*/
+.dark #contacto i{color: #f1f1f1;}
+.dark #contacto i:hover{color: #424242;}
+.dark #contacto h3{color: white;}
+.dark .contacto h2, .dark .contacto h3{color: #f1f1f1;}
+.dark .contacto p{color: #939393;}
+.dark .contacto input{color: #c9c9c9;}
+/*contacto*/
+
+/*Registro correcto*/
+.dark .iframe-registro-usuarios h1,.dark .iframe-registro-usuarios h3 {color: white;}
+
+.dark #registro-correcto a{background-color: #f1f1f1;color: #2a2353;}
+/*Registro correcto*/
+
+
+/*perfil*/
+.dark #perfil .vias .correo div{border-right: solid 1px #2b2b2b;}
+.dark #perfil .vias .correo i,.dark #perfil .vias .whatsapp i{font-size: 4em;color: #c9c9c9;}
+.dark #perfil .vias .correo p,.dark #perfil .vias .whatsapp p{font-size: .9em;color: #c9c9c9;}
+.dark #perfil .info h4{color: #c9c9c9;}
+.dark #perfil .info p{color: #f1f1f1;}
+/*perfil*/
+
+/*abrebocas entrada pagina inicio*/
+.dark #abrebocas-entrada .card .card-content, .dark #abrebocas-entrada .card .card-reveal{background-color: #2b2b2b;color: white;}
+.dark #abrebocas-entrada h3{color: white;}
+.dark #abrebocas-entrada #resumen{color: #f1f1f1;}
+.dark #abrebocas-entrada .boton-detalles a{color:#fff;}
+.dark #abrebocas-entrada .boton-detalles a:hover{color:#2A2359;background-color: #fff;}
+/*abrebocas entrada pagina inicio*/
+
+/*footer*/
+.dark #pie p{color: white;border-bottom: 1px solid white;}
+.dark #pie .correo-numero{color: #fff;}
+.dark #pie #social a{color: white;}
+.dark #pie #social-m a{color: white;}
+.dark #pie #social-m a:hover{color: #c9c9c9;}
+.dark #copyright{color:#f1f1f1;}
+.dark #copyright a{color:#fff;}
+/*footer*/
+
+
+/*un nuevo tema
+.solar {
+  --text-primary: #576e75;
+  --text-secondary: #35535c;
+  --bg-primary: #fdf6e3;
+  --bg-secondary: #f5e5b8;
+}
+*/
+

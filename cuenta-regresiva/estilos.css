@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: sfregular;
+}
+
+.wrapper {
+  text-align: center;
+}
+.time {
+  color: #fff;
+  font-size: 4em;
+  background-color:#2A2359;
+  padding: .1em;
+  border-radius: .2em;
+}
+.label {
+  font-size: 2em;
+  display: block;
+  color: #c9c9c9;
+}

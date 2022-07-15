@@ -1,0 +1,67 @@
+body::-webkit-scrollbar {width: 10px;background: black;}
+body::-webkit-scrollbar-thumb {background: #c9c9c9;border-radius: 10px;border-right: 2px solid #dbdbdb;}
+
+
+h1, h2, h3 {
+	font-family: familiarbold;
+	color: #8844EE; /*color morado*/ 
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+
+
+section::after, section::before {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+section > div {
+	float: left;
+}
+
+#ver {
+	display: block;
+	text-transform: uppercase;
+}
+
+.anime {
+	opacity: 0;
+	transform: translate3d(-100px,0,0);
+	transition: .3s;
+}
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
+
+
+#social a{
+	font-size: 4em;
+	display: inline-block;
+	border: 0;
+	background: transparent;
+	color:#c3a9ea; 
+}
+#social a:hover{
+	color:#000;/*color negro*/ 
+}
+
+#social-m a{
+	font-size: 2em;
+	display: inline-block;
+	border: 0;
+	background: transparent;
+	color:#000; 
+}
+#social-m a:hover{
+	color: #000;/*color negro*/ 
+}

@@ -1,0 +1,42 @@
+.slider {width: 100%;margin:0;overflow: hidden;}
+.slider ul {display: flex;padding: 0;width: 400%;animation: cambio-a 20s infinite alternate linear;}
+.slider li {width: 100%;list-style: none;}
+.slider img {width: 100%;}
+
+@keyframes cambio-a {0% 
+
+	{margin-left: 0;}
+
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+.slider2 {width: 100%;margin:0;	overflow: hidden;}
+.slider2 ul {display: flex;padding: 0;width: 400%;animation: cambio-b 30s infinite alternate linear;}
+.slider2 li {width: 100%;list-style: none;}
+.slider2 img {width: 100%;}
+
+
+@keyframes cambio-b {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+

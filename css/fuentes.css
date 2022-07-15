@@ -1,0 +1,72 @@
+/*sf*/
+@font-face{font-family: "sfregular";src: url(font-folder/sf/SFRegular.otf);}
+#sfregular{font-family: "sfregular";}
+@font-face{font-family: "sfbold";src: url(font-folder/sf/SFBold.otf); }
+#sfbold{font-family: "sfbold";}
+/*sf*/
+
+/*roboto*/
+@font-face{font-family: "roboto";src: url(font-folder/roboto/Roboto.ttf); }
+#roboto{font-family: "roboto";}
+@font-face{font-family: "roboto-Bold";src: url(font-folder/roboto/RobotoBold.ttf); }
+#roboto-bold{font-family: "roboto-Bold";}
+/*roboto*/
+
+
+/*gravity*/
+@font-face{font-family: "gravitylight";src: url(font-folder/gravity/Gravity-Light.otf); }
+#gravitylight{font-family: "gravitylight";}
+@font-face{font-family: "gravitybold";src: url(font-folder/gravity/Gravity-Bold.otf); }
+#gravitybold{font-family: "gravitybold";}
+@font-face{font-family: "gravityregular";src: url(font-folder/gravity/Gravity-Regular.otf); }
+#gravityregular{font-family: "gravityregular";}
+/*gravity*/
+
+
+/*cocogoose*/
+@font-face{font-family: "cocogoose";src: url(font-folder/cocogoose/cocogoose.ttf); }
+#cocogoose{font-family: "cocogoose";}
+@font-face{font-family: "cocogoose-light";src: url(font-folder/cocogoose/cocogoose-light.ttf); }
+#cocogoose-light{font-family: "cocogoose-light";}
+@font-face{font-family: "cocogoose-semilight";src: url(font-folder/cocogoose/cocogoose-semilight.ttf); }
+#cocogoose-semilight{font-family: "cocogoose-semilight";}
+/*cocogoose*/
+
+/*kalam*/
+@font-face{font-family: "kalam";src: url(font-folder/kalam/kalam.ttf); }
+#kalam-regular{font-family: "kalam";}
+@font-face{font-family: "kalambold";src: url(font-folder/kalam/kalambold.ttf); }
+#kalam-bold{font-family: "kalambold";}
+@font-face{font-family: "kalamlight";src: url(font-folder/kalam/kalamlight.ttf); }
+#kalam-light{font-family: "kalamlight";}
+/*kalam*/
+
+/*caviar dreams*/
+@font-face{font-family: "caviardreams";src: url(font-folder/caviardreams/caviardreams.ttf); }
+#caviardreams{font-family: "caviardreams";}
+@font-face{font-family: "caviardreamsbold";src: url(font-folder/caviardreams/caviardreamsbold.ttf); }
+#caviardreamsbold{font-family: "caviardreamsbold";}
+/*caviar dreams*/
+
+@font-face{font-family: "comforta";src: url(font-folder/ComfortaaRegular.ttf); }
+#comfortaa-regular{font-family: "comforta";}
+
+@font-face{font-family: "cocoghotic";src: url(font-folder/cocoghotic.ttf); }
+#cocoghotic{font-family: "cocoghotic";}
+
+@font-face{font-family: "madevolve";src: url(font-folder/MADEvolve.otf); }
+#madevolve{font-family: "madevolve";}
+
+
+@font-face{font-family: "keepcalm";src: url(font-folder/KeepCalm.ttf); }
+#keepcalm{font-family: "keepcalm";}
+
+@font-face{font-family: "russoone";src: url(font-folder/RussoOne.ttf); }
+#russoone{font-family: "russoone";}
+
+
+@font-face{font-family: "familiarbold";src: url(font-folder/FamiliarBold.otf); }
+#familiarbold{font-family: "familiarbold";}
+
+
+

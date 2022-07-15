@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+#facebook {padding: 2em;font-size: 1.5em;color: white;background-color:#000;display: inline-block;margin: 0;padding: 15px 15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box; transition:.8s; border-radius: 0px 10px 0px 0px;}
+#facebook:hover{padding: 15px 30px;transition:.8s;border-radius: 0px 10px 0px 0px;background-color:#3b5998;}
+
+#instagram  {padding: 2em;font-size: 1.5em;color: white;background-color:#000;display: inline-block;margin: 0;padding: 15px 15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;transition:.8s;}
+#instagram:hover{padding: 15px 30px;transition:.8s;background: linear-gradient(#6651ca, #d0268c, #fa8c3e);}
+
+#mail     {padding: 2em;font-size: 1.5em;color: white;background-color:#000;display: inline-block;margin: 0;padding: 15px 15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;transition:.8s;}
+#mail:hover{padding: 15px 30px;transition:.8s;background-color:#d32e2e;}
+
+#whatsapp {padding: 2em;font-size: 1.5em;color: white;background-color:#000;display: inline-block;margin: 0;padding: 15px 15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;transition:.8s;border-radius: 0px 0px 10px 0px;}
+#whatsapp:hover{padding: 15px 30px;transition:.8s;border-radius: 0px 0px 10px 0px;background-color:#1ba011;}
+
+
+
+.social{position: fixed;left: 0;top:200px;z-index:100;}
+.social ul {list-style:none;z-index:10000;}

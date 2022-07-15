@@ -1,0 +1,196 @@
+*{margin: 0;padding: 0;box-sizing: border-box;text-decoration: none;}
+*::-moz-selection{background: #2A2359;color: #fff;}
+*::selection {background: #2A2359;color: #fff;}
+body{font-family:sfregular;}
+body::-webkit-scrollbar {width: 0.5em;}
+body::-webkit-scrollbar-track {background: #fff;}
+body::-webkit-scrollbar-thumb {background: #f1f1f1;}
+header{position: fixed;background-color:black;}
+header #logo{width: 50%;padding: .5em 0 .5em 1em;}
+
+
+
+.texto-negrita{font-family: kalambold;color: black;}
+.boton-ver-mas{border: #2a2359 solid 3px; font-size: 1.5em;font-family: kalambold;text-decoration: none;transition: .2s;color:#2a2359;padding: .5em 0;}
+.boton-ver-mas:hover{background-color: #2a2359;text-decoration: none;transition: .2s;color:#fff;}
+
+.imagen{max-width: 100%;max-height: 100%;}
+.imagen-2{max-width: 50%;max-height: 50%;}
+.imagen-3{max-width: 30%;max-height: 30%;}
+.imagen-4{max-width: 20%;max-height: 20%;}
+.imagen-5{max-width: 15%;max-height: 15%;}
+.imagen-6{max-width: 8%;max-height: 8%;}
+
+.barra-progreso{width: 100%;color: red}
+
+#recuperar_clave{color: #2b2b2b;}
+#recuperar_clave #formulario{padding: 5em; background-color: white;margin-top: 10%;margin-bottom: 25%;}
+
+
+#notificacion{position: fixed;top:15em;right: 2em;z-index: 9;}
+
+
+.boton_subir {width: 0.1px;height: 0.1px;opacity: 0;overflow: hidden;position: absolute;z-index: -1;}
+/*
+#label-archivo {background-color: #2b2b2b;color: #029ac4;cursor: pointer;padding: 0.5em;width: 100%; text-align: center;}
+#label-archivo:hover {background-color: #029ac4;color: white;}
+
+#boton_imagen_producto{border: 1px dashed #c9c9c9;padding: .5em;margin: .5em;}
+#guardar_imagen{width: 100%;border:0;padding:.5em;font-size: 1.2em;background-color: #2A2359;color: white;}
+#guardar_imagen:hover{background-color: #2A2359;color: white;}
+*/
+
+#hic-salis{background-color: #f1f1f1;color: white;}
+#hic-salis #formulario{color: #c9c9c9;padding: 1em;}
+#hic-salis #enlaces a{color: #c9c9c9;text-align: center;padding:0 2em;}
+#hic-salis #boton-login{color: #c9c9c9;padding:.5em 1em;border: 2px #c9c9c9 solid; transition: .3s;}
+#hic-salis #boton-login:hover{background-color: #c9c9c9; color: white; transition: .3s;}
+
+
+
+#divisa{background-color: #2b2b2b;color: white; font-family:caviardreamsbold;}
+#divisa .icon{padding: .5em .2em 0 .2em;}
+#divisa .lema{color: white;font-size: 1em;padding: .8em 0 0 0;}
+#divisa #pais {padding: .5em 0 0 0;cursor: pointer;}
+#divisa #pais p {border-left: 2px solid #515151;padding-left: .5em;}
+#divisa #pais a {border-left: 2px solid #515151;padding-left: .5em;color: white;text-decoration: none;}
+
+
+
+/*busqueda*/
+.icono-buscar{background-color:white;color:#424242;padding: .5em 1.5em; border:0;border-radius: 10px;font-size: .5em;}
+.icono-buscar:hover{background-color:#c9c9c9;transition: .5s;}
+#busqueda{color: #424242;}
+.linea-decorativa{background-color: black; color: black;padding: .1em;font-size: 3px}
+#busqueda .cuadro-contenedor{border: 2px solid #c9c9c9;}
+#busqueda .cuadro-contenedor p{padding: 2em 1.5em 1.5em 1.5em; color:#424242; text-align: center;}
+#busqueda .volver a{color:#424242;font-size: 1em;}
+#abrebocas {color: black;transition: .5s;font-family: sfbold;}
+#abrebocas:hover{padding-left: 1.8em;background-color: black; color: #c9c9c9;transition: .5s;}
+/*busqueda*/
+
+/*formularios*/
+#formulario-entrada input{color: #424242;font-family: sfregular;}
+#formulario-entrada input:focus{border-bottom: 2px solid #424242;}
+#formulario-entrada textarea{color: #424242;font-family: sfregular;font-size: 1em}
+#formulario-entrada textarea:focus{text-anchor: 1em;color: black;}
+
+#copialo .copialo{width: 100%;border-color:1px solid #c9c9c9;padding:1em;}
+#copialo .boton{width: 100%;border: 0;padding:.5em;transition: .5s;color: black; background-color: #c9c9c9;}
+#copialo .boton:hover{transition: .2s;background-color: black;color:white;}
+
+#agregar-entrada label{font-size: 1em;}
+#agregar-entrada .icono{font-size: 1em;color:#c9c9c9; }
+/*formularios*/
+
+/*publicaciones*/
+#entrada h4{font-family: sfbold;font-size: 1.3em;}
+#entrada h5{font-family: sfregular;font-size: .9em;color: #8844EE;}
+#entrada .boton-comprar {font-family: caviardreamsbold;background-color: black;border-radius: 30px; color: white;font-size: 1.2em;padding: .5em 0;transition:.5s;}
+#entrada .boton-comprar:hover{background-color:#29a683;color: black;transition:.2s;text-decoration: none;}
+#entrada p{font-family: sfregular;font-size: 1.2em;color: #a1a1a1;}
+/*publicaciones*/
+
+/*preguntas frecuentes*/
+#preguntas-frecuentes h3{color:#2b2b2b;font-family: sfbold;font-size: 1.3em;}
+/*preguntas frecuentes*/
+
+
+/*social*/
+.redes-sociales a{font-size: 2.5em;color: #2b2b2b;padding:0 .2em}
+.redes-sociales a:hover{color: #c9c9c9;}
+/*social*/
+
+
+/*abrebocas entrada pagina inicio*/
+#abrebocas-entrada{}
+#abrebocas-entrada h3{font-family: sfbold; font-size: .7em;color:#2A2359;}
+#abrebocas-entrada #resumen{font-size: .6em;color: #424242;}
+#abrebocas-entrada .boton-detalles a{color:#2A2359;padding: .4em; font-size: .8em;transition: .2s;text-decoration: none;}
+#abrebocas-entrada .boton-detalles a:hover{color:white;background-color: #2A2359;border-radius: .3em;transition: .5s; }
+#abrebocas .entrada-azar{padding: 1em 0 0 1em;}/*controla el texto que esta dentro de la entrada al azar*/
+/*abrebocas entrada pagina inicio*/
+
+/*entradas al azar*/
+#entradas-azar {padding:.5em;}
+#entradas-azar a{text-decoration: none;}
+/*entradas al azar*/
+
+/*Estos son los atributos para que se vea bien la vista de imagen en las entradas*/
+.ventana {position: fixed;width: 100%;height: 100%;color: white;top: 0%;left: 0%;opacity: 1;
+	background-color: rgba(0,0,0,.9);display: none;z-index: 999999;font-family: familiarbold;}
+.ventana a{font-size: 2em; color:white;font-family: sfbold;z-index: 1000000;padding-right: .5em;text-decoration: none;}
+/*vista de imagen en las entradas*/
+
+
+/*contacto*/
+.img-contacto{background-size: cover;}
+.img-contacto .vias{height: 100vh;}
+.img-contacto .vias .correo, .img-contacto .vias .whatsapp{height: 50vh;padding: 5vh 0;}
+#contacto i{font-size: 12em;color: #f1f1f1;}
+#contacto i:hover{color: #c9c9c9;}
+#contacto h3{font-size: 2em;color: #f1f1f1;}
+.contacto{color: black;}
+.contacto p{color: #2d2d2d;}
+/*contacto*/
+
+/*perfil*/
+#perfil .vias .correo div{border-right: solid 1px #c9c9c9;}
+#perfil .vias .correo i, #perfil .vias .whatsapp i{font-size: 4em;color: #2d2d2d;}
+#perfil .vias .correo p, #perfil .vias .whatsapp p{font-size: .9em;color: #2d2d2d;}
+/*perfil*/
+
+/*gestor de entradas*/
+.inventario .cabecera{padding: .5em 0;font-size: 1.2em;font-family: sfbold;}
+.inventario .item{padding: 1.5em 0 .2em 0;box-shadow: 0px 0px 2px #c9c9c9;}
+/*gestor de entradas*/
+
+
+
+#login{height: 100vh;width: 100%;position: absolute;background-position: center center;background-repeat: no-repeat;background-size: cover;}
+#contenedor{padding: 2em;width: 45%;border-radius: 5px;position: absolute;top:50%;left: 50%;transform: translate(-50%,-50%);
+-webkit-box-shadow: 0px 12px 43px -7px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 12px 43px -7px rgba(0,0,0,0.54);
+box-shadow: 0px 12px 43px -7px rgba(0,0,0,0.54); background-color: white;
+}
+#login #contenedor h2{text-align: center;font-family:cocogoose;}
+#login #contenedor input{border: .1em solid #c9c9c9;width: 80%;border-radius: 1px;padding: .5em;}
+#login #contenedor #boton{background-color: black;border: 0;width: 80%;color: white;padding: .2em;}
+#login #contenedor #boton:hover{background-color: red;color: white;}
+#login #contenedor #boton2{background-color: #c9c9c9;border: 0;width: 80%;color: white;padding: .2em;}
+#login #contenedor #boton2:hover{background-color: red;color: white;}
+#login #contenedor #enlaces{color: black;text-align: center;padding-top: .5em;}
+#login #contenedor #social{color: black;font-size: 2em;}
+
+
+#contenedor-subir-imagen img{border: 1em solid #c9c9c9;}
+#contenedor-subir-imagen #info{padding: 1.5em 0em 1.5em 2.5em;}
+#contenedor-subir-imagen:hover{
+-webkit-box-shadow: 0px 12px 43px -7px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 12px 43px -7px rgba(0,0,0,0.54);
+box-shadow: 0px 12px 43px -7px rgba(0,0,0,0.54);
+}
+
+#copyright{color:#424242; padding: 1em;}
+#copyright a{color:#424242;}
+
+#pie{padding: 5em 0;font-size: 1em;border-top: 1px solid #c9c9c9;border-bottom: 1px solid #c9c9c9;}
+#pie p{color: black; font-family: kalambold; border-bottom: 1px solid black;font-size: 1.5em;}
+#pie .correo-numero{color: #424242;}
+#pie #social a{color: #424242;font-size: 1em;}
+#pie #social-m a{color: #424242;font-size: 2.5em;padding: 0 .1em;}
+#pie #social-m a:hover{color: #c9c9c9;font-size: 2.5em;padding: 0 .1em;}
+
+
+/*login y registro en moviles*/
+#login{height: 100vh;width: 100%;position: absolute;}
+#login #contenedor-m h2{text-align: center;font-family:roboto-Bold;font-size: 1.5em;}
+#login #contenedor-m h3{text-align: center;font-family:roboto;font-size: 1.3em;}
+#login #contenedor-m input{border: .1em solid #c9c9c9;width: 80%;border-radius: 1px;padding: .5em;}
+#login #contenedor-m #boton{background-color: black;border: 0;width: 80%;color: white;padding: .2em;}
+#login #contenedor-m #boton:hover{background-color: red;color: white;}
+#login #contenedor-m #boton2{background-color: #c9c9c9;border: 0;width: 80%;color: white;padding: .2em;}
+#login #contenedor-m #boton2:hover{background-color: red;color: white;}
+#login #contenedor-m #enlaces{color: black;text-align: center;padding-top: .5em;}
+#login #contenedor-m #social{color: black;font-size: 2em;}
+/*login y registro*/
